@@ -1,0 +1,18 @@
+# Python Environments
+.venv/
+venv/
+env/
+
+# IDEs and System Files
+.vscode/
+.idea/
+.DS_Store
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# Data & Large Generated Files
+01_data_acquisition/data/
+01_data_acquisition/dem_crops/
+02_tiling_and_label_generation/yolo_dataset/

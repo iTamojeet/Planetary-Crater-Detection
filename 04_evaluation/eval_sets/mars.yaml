@@ -1,0 +1,5 @@
+path: /Users/tamojeetpal/Planetary-Crater-Detection/04_evaluation/eval_sets
+train: mars/images
+val: mars/images
+nc: 1
+names: ['crater']
