@@ -33,7 +33,7 @@ from ultralytics import YOLO
 
 sys.path.insert(0, os.path.abspath("../04_evaluation"))
 from advanced_eval import (  # noqa: E402
-    iou_xyxy, load_gt_boxes, size_bin_km, match_predictions, summarize, print_table,
+    load_gt_boxes, size_bin_km, match_predictions, summarize, print_table,
     parse_stem, RESOLUTION_M_PER_PX, SIZE_BIN_LABELS, IMG_SIZE, MAX_DET, IOU_MATCH_THRESH,
     OPERATING_CONF, EVAL_DIR as SOURCE_EVAL_DIR,
 )
